@@ -96,6 +96,7 @@ a {
   background-image: url("../images/camera.png");
   display: flex;
   justify-content: center;
+  text-align: center;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -112,10 +113,14 @@ a {
 
 .stories {
   border: 1px solid black;
+  display: flex;
 }
 
 .story {
-  border: 2px solid black;
+  border: 2px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 
 .column.large {
