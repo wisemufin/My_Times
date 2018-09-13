@@ -1,5 +1,5 @@
 
-
+/* Header Beginning */
 header {
   font-family: Verdana;
   font-weight: bold;
@@ -11,6 +11,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 1;
+  background-color: white;
 }
 
 .logo {
@@ -32,7 +34,7 @@ header {
 
 nav {
   width: 400px;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
@@ -47,4 +49,87 @@ nav li {
 
 a {
   color: black;
+}
+/* Body Beginning*/
+
+.main-container {
+  /* position: relative; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 1px solid black;
+  width: 1323px;
+  padding-top: 116px;
+  margin: 0px auto 78px auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-right: 32px;
+}
+
+.wine-image {
+  background-image: url("../images/main-story.png");
+  display: flex;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+
+.fall-image {
+  background-image: url("../images/earthspins.png");
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.camera-image {
+  background-image: url("../images/camera.png");
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.narrative-text {
+  margin: 16px auto;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.stories {
+  border: 1px solid black;
+}
+
+.story {
+  border: 2px solid black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+span {
+  display: block;
+}
+
+.column.small {
+  width: 240px;
 }
