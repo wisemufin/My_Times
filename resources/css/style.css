@@ -47,6 +47,14 @@ nav li {
   padding: 20px 10px;
 }
 
+nav ul {
+  margin: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
 a {
   color: black;
 }
@@ -57,7 +65,6 @@ a {
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
-  border: 1px solid black;
   width: 1323px;
   padding-top: 116px;
   margin: 0px auto 78px auto;
@@ -66,7 +73,6 @@ a {
 .column {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   margin-right: 32px;
 }
 
@@ -90,6 +96,7 @@ a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .camera-image {
@@ -112,8 +119,8 @@ a {
 }
 
 .stories {
-  border: 1px solid black;
   display: flex;
+  justify-content: space-between;
 }
 
 .story {
@@ -121,6 +128,7 @@ a {
   display: flex;
   height: 100%;
   flex-direction: column;
+  margin-right: 20px;
 }
 
 .column.large {
@@ -129,6 +137,26 @@ a {
 
 .column.medium {
   width: 300px;
+  display: flex;
+}
+
+.story.middle {
+  display: flex;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cat-image {
+  background-image: url("../images/cat.png");
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 span {
@@ -137,4 +165,51 @@ span {
 
 .column.small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
+
+footer nav {
+  width: auto;
+}
+
+footer {
+  display: flex;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+footer a {
+  color: black;
+  padding: 20px 10px;
+  display: inline-block;
 }
