@@ -15,6 +15,10 @@ header {
   background-color: white;
 }
 
+body {
+  margin: 0px;
+}
+
 .logo {
   padding-left: 30px;
   display: flex;
@@ -84,6 +88,7 @@ a {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  align-items: center;
 }
 
 
@@ -91,12 +96,17 @@ a {
   background-image: url("../images/earthspins.png");
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+}
+
+.wine-image span {
+  padding-left: 10px;
 }
 
 .camera-image {
@@ -109,6 +119,7 @@ a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  align-items: center;
 }
 
 .narrative-text {
@@ -151,6 +162,7 @@ a {
   display: flex;
   text-align: center;
   justify-content: center;
+  align-items: center;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -212,4 +224,17 @@ footer a {
   color: black;
   padding: 20px 10px;
   display: inline-block;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.story.middle span {
+  margin-top: 10px;
+}
+
+.column.small h2 {
+  margin-bottom: 30px;
 }
